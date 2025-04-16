@@ -128,8 +128,8 @@
         SYMNUM {
             bindings = <
 &none  &none          &kp AT_SIGN           &kp HASH   &kp DOLLAR             &none        &none        &none             &kp CARET       &none              &none            &none
-&none  &none          &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &kp GRAVE    &none        &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp EXCLAMATION  &none
-&none  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS     &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &none            &none
+&none  &none          &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &kp GRAVE    &none        &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &none            &none
+&none  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS     &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &kp EXCLAMATION  &none
 &none  &none          &kp ASTERISK          &kp COLON  &kp SLASH              &none        &none        &kp PIPE          &kp TILDE       &kp AMPERSAND      &none            &none
                                             &trans     &trans                 &mo 3        &trans       &trans
                                                        &trans                 &trans       &trans
