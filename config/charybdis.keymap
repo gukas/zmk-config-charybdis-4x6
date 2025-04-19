@@ -159,7 +159,7 @@
 
         FUN {
             bindings = <
-&studio_unlock  &macro1  &macro2  &none   &none   &gresc    &none         &none              &none         &none            &none         &bt BT_CLR_ALL
+&studio_unlock  &macro1  &macro2  &none   &none   &none     &none         &none              &none         &none            &none         &bt BT_CLR_ALL
 &none           &none    &none    &none   &none   &none     &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_CLR
 &none           &none    &none    &none   &none   &none     &out OUT_TOG  &kp C_VOLUME_DOWN  &kp C_MUTE    &kp C_VOLUME_UP  &none         &none
 &none           &none    &none    &none   &none   &none     &none         &kp K_PREVIOUS     &kp K_PP      &kp K_NEXT       &none         &none
