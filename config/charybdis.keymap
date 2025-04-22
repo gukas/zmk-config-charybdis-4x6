@@ -10,7 +10,12 @@
     chosen { zmk,matrix_transform = &default_transform; };
 };
 
-/ { 
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+    };
+    
     combos {
         compatible = "zmk,combos";
 
