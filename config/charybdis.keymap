@@ -11,11 +11,6 @@
 };
 
 / {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-    };
-    
     combos {
         compatible = "zmk,combos";
 

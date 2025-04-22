@@ -5,7 +5,6 @@
  */
 
 #include "charybdis.dtsi"
-#include "split_input_common.dtsi"
 
 &kscan0 {
 	col-gpios
@@ -16,17 +15,4 @@
 		, <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		;
-};
-
-
-    trackball: trackball@0 {
-        status = "okay";
-
-    };
-
-/ {
-  trackball_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-  };
 };
